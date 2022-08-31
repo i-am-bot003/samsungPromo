@@ -1,0 +1,519 @@
+*{
+  margin: 0 auto;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  color: #06002B;
+  
+}
+
+body{
+  margin: 0 30px;
+  overflow-x: hidden;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin: 0 0 183px 0;
+  font-size: 14px;
+}
+
+.headlink{
+  display: flex;
+  margin-left: 18%;
+}
+
+
+.headlink a{
+  margin-left: 30px; 
+  text-decoration-line: none;
+  color: #06002B;
+  display: flex;
+  align-items: center;
+  transition: 0.3s
+  
+}
+
+.headlink a:hover{
+  text-shadow: 0px 0px 1px #06002B;
+}
+
+.logo{
+  margin: 0;
+}
+
+nav p{
+  margin: 0 0 0 20px;
+  align-self: center;
+}
+
+.buy{
+  width: 151px;
+  height: 40px;
+  background: none;
+  border: 1px solid #06002B;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.4s
+}
+
+.buy:after{
+  content: url('img/busket.svg');
+  position: relative;
+  top: 0;
+  left: 10px;
+}
+
+.buy:hover{
+  color: white;
+  background: #057EA5;
+  border: 1px solid #057EA5;
+}
+
+.buy:hover:after{
+  content: url('img/busketwhite.svg')
+}
+
+
+header{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 210px;
+  
+}
+
+.headleft{
+  width: 481px;
+  display: flex;
+  flex-direction: column;
+  margin: 0
+}
+
+b{
+  color: #f80;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+
+.h1head{
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+.bluebtn{
+  text-decoration-line:  none;
+  color: white;
+  background: #06002B;
+  width: 259px;
+  height: 60px;
+  text-transform: uppercase;
+  margin: 0; !important;
+  transition:  0.4s
+  
+}
+
+.bluebtn:hover:after{
+  content: url(img/busket.svg)
+}
+
+.bluebtn:hover{
+  background: white;
+  color: #06002B;
+  transition:  0.4s
+}
+
+.subtitle{
+  margin-bottom: 50px;
+}
+
+.bluebtn:after{
+  content: url('img/busketwhite.svg')
+}
+
+.headertop{
+  margin: 0 0 160px 0
+}
+
+.headerbot{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  
+}
+
+.headleftbox{
+  width: 140px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.headleftbox img{
+  width: 70px
+}
+
+.headright{
+  margin: 0;
+  width: 540px;
+}
+
+.imgchange{
+  z-index: -10;
+  position: absolute;
+  left: 37%;
+  top: 4%;
+  width: 100%;
+  overflow-x: hidden;
+  animation: fade 5s linear infinite;
+  animation-delay: 0s
+}
+
+@keyframes fade {
+  0% { opacity: 0; filter: blur(5px)}
+  10% {opacity: 0; filter: blur(5px)}
+  20% {opacity: 1; filter: blur(0px)}
+  50% { opacity: 1; filter: blur(0px)}
+  80% {opacity: 1; filter: blur(0px)}
+  90% {opacity: 0; filter: blur(5px)}
+  100% {opacity: 0; filter: blur(5px)}
+}
+
+.firstblock, .secondblock, .threeblock{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center
+}
+
+.threeblock{
+  margin-bottom: 200px
+}
+
+.ftpmain{
+  width: 730px;
+  line-height: 22.4px;
+  margin: 0 0 30px 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.fttitlemain{
+  margin: 0 0 30px 0;
+  font-size: 36px;
+}
+
+.ftimg{
+  margin: 0 0 200px 0
+}
+
+.scimg{
+  max-width: 1440px;
+}
+
+.thimg{
+  width: 1160px
+}
+
+.scpmain,{
+  width: 980px;
+  margin: 0 0 60px 0;
+}
+
+.thp{
+  width: 980px
+}
+
+.thimg{
+  margin: 0 0 50px 0;
+}
+
+.infobox{
+  display: flex;
+}
+
+.infobox img{
+  width: 365px;
+}
+
+.textbox{
+  width: 500px;
+  margin: 0 120px;
+  align-self: center
+}
+
+.textboxtop{
+  margin-bottom: 30px
+}
+
+.textboxtop h2,.textboxbot h2{
+  margin-bottom: 20px 
+}
+
+.infoblock h1{
+  margin: 0 0 80px 0;
+}
+
+.infoblock{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 330px;
+}
+
+.lineWithoutImg{
+  width: 519px;
+}
+
+.linebox{
+  width: 100%;
+  display: flex;
+  position: relative;
+  
+}
+
+.linebox img{
+  width: 508px;
+  z-index: 12;
+  position: absolute;
+  top:-69%;
+  left: 71%;
+}
+
+.lineboxbg{
+  width: 100%;
+  height: 200px;
+  background-color: #F9F8F3;
+  background-image: url(img/flowers.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  margin-bottom: 200px;
+  display: flex
+  
+}
+
+.lineWithoutImg{
+  width: 778px;
+  display: flex;
+  align-items: center
+}
+
+.lineWithoutImg p{
+  width: 449px;
+  font-size: 24px;
+}
+
+.dostavka{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 200 !important;
+  margin-bottom: 230px;
+  
+}
+
+.dostavkatitle{
+  margin-bottom: 72px
+}
+
+.list{
+  width: 900px
+}
+
+.listitem{
+  display: flex;
+  height: 98px;
+  align-items:  center
+  
+}
+
+.listitem h2{
+  text-transform: uppercase;
+  width: 366px;
+}
+
+.listitem p{
+  width: 260px;
+  margin-left: 160px;
+}
+
+.dostavka hr{
+  color: #737373
+}
+
+.boxkarusel{
+  display: flex;
+  margin: 0 0 80px 0
+}
+
+.boxkarusel img{
+  width: 20%;
+  animation: roll 3.5s ease-in-out infinite
+}
+
+
+@keyframes roll {
+  0% {margin: 15px 0px}
+  50% { margin: 0px 0px}
+  100% {margin: 15px 0px}
+}
+
+.border{
+  height: 400px;
+}
+
+.karusel{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+   
+}
+
+.karusel .radiobtn{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer
+}
+
+#white{
+  box-shadow: 1px 2px 3px gray;
+  transition: 0.3s
+}
+
+#white:checked{
+  border-radius: 5px;
+  width: 25px;
+  height: 25px;
+  transition: 0.3s
+}
+
+#blue{
+  box-shadow: 1px 2px 3px #052459;
+  background: #002D79;
+  transition: 0.3s
+}
+
+#blue:checked{
+  border-radius: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+#pink{
+  box-shadow: 1px 2px 3px #c895cc;
+  background: #ECC3EF;
+  transition: 0.3s
+}
+
+#pink:checked{
+  border-radius: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+#green{
+  box-shadow: 1px 2px 3px #67a686;
+  background: #8DDEB6;
+  transition: 0.3s
+}
+
+#green:checked{
+  border-radius: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+.radiocolor{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+}
+
+.radiocolor input{
+  margin: 5px;
+}
+
+.settings{
+  width: 70%;
+  background: #F6F6F6;
+  padding: 100px;
+  margin-bottom: 200px 
+}
+
+.textlink a:first-child{
+  margin-right: 60px;
+}
+
+.textlink a:last-child{
+  text-decoration-line: none;
+}
+
+.textlink a{
+  font-size: 24px;
+}
+
+.boxtextleft{
+  margin: 0 180px 0 0;
+}
+
+.boxcont{
+  display: flex;
+  flex-direction: row;
+  margin-top: 52px;
+}
+
+.boxtextleft p,.boxtextrigth p{
+  margin-bottom: 10px;
+}
+
+.special{
+  display: block;
+  width: 418px !important;
+  z-index:   0 !important;
+  top: -65% !important;
+  position: absolute !important;
+  left: -1% !important;
+}
+
+footer{
+  margin-top: 400px
+}
+
+.fotwimg{
+  z-index: 1;
+  margin-left: 25%;
+}
+.fotboxbg{
+  margin: 0;
+  background-image: url(img/flowers2.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position-x: right;
+  background-color: #DBE5F1;
+}
+
+.footerbot{
+  width: 100%;
+  background: black;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.footerbot p{
+  color: white;
+  
+}
