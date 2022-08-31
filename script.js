@@ -68,3 +68,15 @@ function colorimg(color){
     }
 }
 
+let roundTime = timeStart - Date.now()
+block.style.animationDelay = roundTime
+document.addEventListener('DOMContentLoaded',console.log('Заглушка'))
+
+
+// function Protection(value){
+//     if(value == false){
+//         console.log('nope')
+//     }else{
+//         console.log('All load')
+//     }
+// }
